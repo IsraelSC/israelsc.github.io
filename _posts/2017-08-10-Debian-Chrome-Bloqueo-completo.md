@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Debian + Chrome = Bloque completo
-date: 2017-07-30 14:28:29 -0700
+date: 2017-08-10 22:14:48 -0700
 categories: debian 9 google chrome bloqueo
 ---
 
