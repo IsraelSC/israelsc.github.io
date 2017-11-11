@@ -10,6 +10,7 @@ Lo mejor que puedes saber es que no va a mejorar mucho, pero al menos puede ser 
 
 Lo que se necesita es instalar (en caso de no estar instalado) el paquete mtrack (en debian y Ubuntu el paquete se llama xserver-xorg-input-mtrack). Despues crear un archivo en /etc/X11/xorg.conf.d o modificar /etc/X11/xorg.conf con la siguiente información:
 
+{% highlight ruby %}
 Section "InputClass"
 	MatchIsTouchpad "on"
 	Identifier		"Touchpads"
@@ -30,6 +31,7 @@ Section "InputClass"
 	Option			"ScrollDistance"	"100"
 	Option			"TapDragEnable"	"false"
 EndSection
+{% endhighlight %}
 
 Después reiniciar el sistema grafico o el sistema para que los cambios tengan efecto.
 
