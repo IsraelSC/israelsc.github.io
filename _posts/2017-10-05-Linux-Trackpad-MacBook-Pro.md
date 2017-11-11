@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Debian 9 Pantalla negra
+title: Trackpad de Macbook Pro con Linux
 date: 2017-10-05 14:23:19 -0700
 categories: linux macbook pro trackpad touchpad
 ---
